@@ -1,5 +1,8 @@
 package hexlet.code;
 
+import hexlet.code.games.Even;
+import hexlet.code.games.Calc;
+
 import java.util.Scanner;
 
 public class App {
@@ -9,18 +12,36 @@ public class App {
         System.out.println("Please enter the game number and press Enter.");
         System.out.println("1 - Greet");
         System.out.println("2 - Even");
+        System.out.println("3 - Calc");
         System.out.println("0 - Exit");
 
         System.out.print("Your choice: ");
         int choice = scanner.nextInt();
+
+        String name = null;
 
         switch (choice){
             case 1:
                 Cli.greetingUser();
                 break;
             case 2:
-                String name = Cli.greetingUser();
-                Games.even(name);
+                name = Cli.greetingUser();
+
+                Engine.run(
+                        "Answer 'yes' if the number is even, otherwise answer 'no'.",
+                        Even::generateQuestion,
+                        Even::getCorrectAnswer,
+                        name
+                );
+                break;
+            case 3:
+                name = Cli.greetingUser();
+                Engine.run(
+                        "What is the result of the expression?",
+                        Calc::generateQuestion,
+                        Calc::getCorrectAnswer,
+                        name
+                );
                 break;
             case 0:
                 break;

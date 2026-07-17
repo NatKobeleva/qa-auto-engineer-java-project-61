@@ -11,11 +11,16 @@ Brain Games
 
 
 ### Even game demo
-
 Successful game:
-
 ![Win game](screenshots/winEven.png)
 
-Failed game:
-
+Failed game: 
 ![Lose game](screenshots/loseEven.png)
+
+
+### Calc game demo
+Successful game:
+![Win game](screenshots/winCalc.png)
+
+Failed game:
+![Lose game](screenshots/loseCalc.png)
