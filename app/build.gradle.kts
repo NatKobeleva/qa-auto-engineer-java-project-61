@@ -1,6 +1,7 @@
 plugins {
     id("com.github.ben-manes.versions")  version "0.52.0"
     id("org.sonarqube") version "7.3.1.8318"
+    id("checkstyle")
     application
 }
 
@@ -13,6 +14,10 @@ application {
 
 repositories {
     mavenCentral()
+}
+
+checkstyle {
+    configFile = file("config/checkstyle/checkstyle.xml")
 }
 
 dependencies {

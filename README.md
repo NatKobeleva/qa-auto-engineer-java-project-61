@@ -4,14 +4,18 @@
 ### SonarQube
 Brain Games
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=NatKobeleva_qa-auto-engineer-java-project-61&metric=alert_status)](...)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=NatKobeleva_qa-auto-engineer-java-project-61&metric=alert_status)](...) 
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=NatKobeleva_qa-auto-engineer-java-project-61&metric=bugs)](...)  
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=NatKobeleva_qa-auto-engineer-java-project-61&metric=vulnerabilities)](...) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=NatKobeleva_qa-auto-engineer-java-project-61&metric=code_smells)](...)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=NatKobeleva_qa-auto-engineer-java-project-61&metric=duplicated_lines_density)](...) [![Lines of code (%)](https://sonarcloud.io/api/project_badges/measure?project=NatKobeleva_qa-auto-engineer-java-project-61&metric=ncloc)](...)
 
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=NatKobeleva_qa-auto-engineer-java-project-61&metric=bugs)](...)
 
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=NatKobeleva_qa-auto-engineer-java-project-61&metric=vulnerabilities)](...)
+### Even game demo
 
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=NatKobeleva_qa-auto-engineer-java-project-61&metric=code_smells)](...)
+Successful game:
 
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=NatKobeleva_qa-auto-engineer-java-project-61&metric=duplicated_lines_density)](...)
+![Win game](screenshots/winEven.png)
 
-[![Lines of code (%)](https://sonarcloud.io/api/project_badges/measure?project=NatKobeleva_qa-auto-engineer-java-project-61&metric=ncloc)](...)
+Failed game:
+
+![Lose game](screenshots/loseEven.png)
