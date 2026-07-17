@@ -24,3 +24,8 @@ Successful game:
 
 Failed game:
 ![Lose game](screenshots/loseCalc.png)
+
+### GCD game demo
+Successful and failed game:
+
+![GCD](screenshots/GCD.png)

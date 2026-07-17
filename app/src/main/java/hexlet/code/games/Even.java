@@ -1,7 +1,4 @@
 package hexlet.code.games;
-
-import hexlet.code.Cli;
-
 import java.util.Random;
 
 public class Even {
