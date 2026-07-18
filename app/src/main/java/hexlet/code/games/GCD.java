@@ -7,11 +7,11 @@ public class GCD {
         int firstNumber = random.nextInt(100) + 1;
         int secondNumber = random.nextInt(100) + 1;
 
-        return firstNumber + ", " + secondNumber;
+        return firstNumber + " " + secondNumber;
     }
 
     public static String getCorrectAnswer(String question) {
-        String[] parts = question.split(", ");
+        String[] parts = question.split(" ");
 
         int firstNumber = Integer.parseInt(parts[0]);
         int secondNumber = Integer.parseInt(parts[1]);
