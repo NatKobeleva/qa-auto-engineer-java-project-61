@@ -33,3 +33,8 @@ Successful and failed game:
 Successful and failed game:
 
 ![Progression](app/screenshots/Progression.png)
+
+### Prime game demo
+Successful and failed game:
+
+![Prime](app/screenshots/Prime.png)
