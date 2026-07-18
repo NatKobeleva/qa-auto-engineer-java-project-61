@@ -28,3 +28,8 @@ Failed game:
 Successful and failed game:
 
 ![GCD](app/screenshots/GCD.png)
+
+### Progression game demo
+Successful and failed game:
+
+![Progression](app/screenshots/Progression.png)
