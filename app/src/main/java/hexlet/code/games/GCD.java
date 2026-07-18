@@ -16,7 +16,7 @@ public class GCD {
         int firstNumber = Integer.parseInt(parts[0]);
         int secondNumber = Integer.parseInt(parts[1]);
 
-        while (secondNumber != 0){
+        while (secondNumber != 0) {
             int temp = secondNumber;
             secondNumber = firstNumber % secondNumber;
             firstNumber = temp;

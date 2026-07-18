@@ -26,7 +26,7 @@ public class App {
 
         String name = null;
 
-        switch (choice){
+        switch (choice) {
             case 1:
                 Cli.greetingUser();
                 break;
@@ -77,6 +77,9 @@ public class App {
                 );
                 break;
             case 0:
+                break;
+            default:
+                System.out.println("Unknown game number.");
                 break;
 
         }
